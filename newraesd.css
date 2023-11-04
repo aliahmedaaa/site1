@@ -1,4 +1,4 @@
-body.index .s-block--features__item .feature-icon, .main-nav-container, .footer-is-light .store-footer .store-footer__inner,salla-slider:not(.hydrated), .carousel-slider {
+body.index .s-block--features__item .feature-icon, .main-nav-container, .footer-is-light .store-footer .store-footer__inner,salla-slider.photos-slider .swiper-slide {
     background: var(--1);
     background: linear-gradient( 90deg, var(--1) 0%, var(--2) 100% );
 }
