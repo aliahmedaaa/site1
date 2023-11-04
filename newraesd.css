@@ -296,3 +296,6 @@ footer.store-footer a.navbar-brand {
         margin: auto;
     }
 }
+footer *,.sicon-menu:before, .topnav-link-item, .s-cart-summary-total, .header-btn__icon, .main-menu li.root-level > a,.topnav-is-dark .top-navbar .s-search-input::placeholder, .topnav-is-dark .top-navbar .s-search-input::-webkit-input-placeholder {
+    color: var(--color-footer) !important;
+}
