@@ -1,1 +1,14 @@
 
+.dark #app div.s-products-list-vertical-cards,.dark #app div.s-products-list-vertical-cards .product-entry,.dark salla-slider .swiper-horizontal>.swiper-scrollbar::before, .dark option, .dark input[type=text], .dark input[type=email], .dark textarea, .dark select, .dark option, .dark .s-comment-form-input, .dark .s-form-control, .dark .product-single .s-product-options-option-label, .dark .product-single .s-product-options-wrapper, .dark #app .s-social-share-list a:not(:hover) svg, .dark .text-gray-500, .dark body, .dark .store-footer, .dark .dark\:bg-dark, .dark .store-footer, .dark salla-slider.details-slider .swiper-slide, .dark .dark\:bg-dark, .dark #app .s-social-share-list {
+    background-color: var(--color-mainnav-bg);
+    background-color: var(--color-promotion-text) !important;
+    color: #000;
+    fill: #000;
+    border-color: var(--color-promotion-text) !important;
+}
+
+@media (max-width: 780px) {
+    .product-entry--vertical {
+        margin: 0 0 86px 0 !important;
+    }
+}
