@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap'); body, *:not(i,.fa,.far,.fas,.fab) {
     font-family: 'Cairo', sans-serif;
 }
@@ -42,7 +41,7 @@ body .s-product-card-entry {
     justify-content: center;
 }
 
-body .main-nav-container, body .main-nav-container.fixed-header .inner,.main-nav-container,.s-block--features__item .feature-icon {
+.mm-spn.mm-spn--navbar.mm-spn--main ,body .main-nav-container, body .main-nav-container.fixed-header .inner,.main-nav-container,.s-block--features__item .feature-icon {
     background: var(--1);
     background: var(--g);
 }
@@ -226,4 +225,9 @@ span.s-button-text span {
 
 section.s-block.s-block--photos-slider {
     margin: 0;
+}
+
+.mm-spn li a span,.mm-spn li a, .mm-spn li>span,:is([dir=rtl] .mm-spn.mm-spn--navbar.mm-spn--main):after {
+    padding-right: .75rem;
+    color: #fff;
 }
