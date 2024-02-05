@@ -230,4 +230,7 @@ section.s-block.s-block--photos-slider {
 :is([dir=rtl] .mm-spn.mm-spn--navbar):after,.mm-spn li a span,.mm-spn li a, .mm-spn li>span,:is([dir=rtl] .mm-spn.mm-spn--navbar.mm-spn--main):after {
     padding-right: .75rem;
     color: #fff;
+}salla-slider.photos-slider .swiper-slide {
+    padding-left: 0;
+    padding-right: 0;
 }
