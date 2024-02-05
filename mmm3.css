@@ -3,15 +3,15 @@
     font-family: 'Cairo', sans-serif;
 }
 
-body.index salla-slider.photos-slider .swiper-slide {
+body salla-slider.photos-slider .swiper-slide {
     width: 100% !important;
 }
 
-body.index salla-slider.photos-slider .swiper {
+body salla-slider.photos-slider .swiper {
     padding: 0 !important;
 }
 
-body.index .s-button-btn, .s-price-range-number-input {
+body .s-button-btn, .s-price-range-number-input {
     padding: 0.9rem;
     color: white;
     background: var(--1);
@@ -19,11 +19,11 @@ body.index .s-button-btn, .s-price-range-number-input {
     border: 0;
 }
 
-body.index .s-product-card-content {
+body .s-product-card-content {
     padding: 0 !important;
 }
 
-body.index .s-product-card-entry {
+body .s-product-card-entry {
     border-radius: 40px;
     overflow: hidden;
     border: 1px solid;
@@ -37,12 +37,12 @@ body.index .s-product-card-entry {
     padding: 1rem 0.5rem 0.5rem;
 }
 
-.flex.rtl\:space-x-reverse.space-x-2.items-end,body.index .s-product-card-content * {
+.flex.rtl\:space-x-reverse.space-x-2.items-end,body .s-product-card-content * {
     text-align: center;
     justify-content: center;
 }
 
-body.index .main-nav-container, body.index .main-nav-container.fixed-header .inner,.main-nav-container,.s-block--features__item .feature-icon {
+body .main-nav-container, body .main-nav-container.fixed-header .inner,.main-nav-container,.s-block--features__item .feature-icon {
     background: var(--1);
     background: var(--g);
 }
@@ -52,11 +52,11 @@ body.index .main-nav-container, body.index .main-nav-container.fixed-header .inn
     background: linear-gradient( 90deg, var(--1) 0%, var(--2) 100% );
 }
 
-body.index .top-navbar *, body.index .s-cart-summary-total, body.index .sicon-user-circle:before, i.header-btn__icon.icon.sicon-shopping-bag:before, body.index .main-menu li.root-level > a {
+body .top-navbar *, body .s-cart-summary-total, body .sicon-user-circle:before, i.header-btn__icon.icon.sicon-shopping-bag:before, body .main-menu li.root-level > a {
     color: white;
 }
 
-body.index .top-navbar, body.index div.app-inner.flex.flex-col.min-h-full > footer {
+body .top-navbar, body div.app-inner.flex.flex-col.min-h-full > footer,.topnav-is-dark .top-navbar {
     background: var(--2);
 }
 
@@ -68,7 +68,7 @@ body.index .top-navbar, body.index div.app-inner.flex.flex-col.min-h-full > foot
     background: linear-gradient( 180deg, var(--1) 0%, var(--2) 100% );
 }
 
-body.index .s-slider-block__title h2 {
+body .s-slider-block__title h2 {
     padding: 0 !important;
     text-transform: uppercase;
     background-image: linear-gradient( -225deg, var(--1) 0%, hsl(0, 0%, 100%) 29%, var(--2) 67%, var(--2) 100% );
@@ -91,7 +91,7 @@ body.index .s-slider-block__title h2 {
     }
 }
 
-body.index div.app-inner.flex.flex-col.min-h-full > section > div > a > img {
+body div.app-inner.flex.flex-col.min-h-full > section > div > a > img {
     margin-top: 30px !important;
     border-radius: 0px !important;
     position: relative;
@@ -120,7 +120,7 @@ body.index div.app-inner.flex.flex-col.min-h-full > section > div > a > img {
     border-radius: 7px;
 }
 
-body.index .navbar-brand img {
+body .navbar-brand img {
     BACKGROUND: transparent;
 }
 
