@@ -964,3 +964,27 @@ body.index div.app-inner.flex.flex-col.min-h-full > section.s-block--banners:nth
 .banner-entry {
     background-color: transparent;
 }
+
+.border-b.last\:border-0.mb-8.pb-8.last\:pb-0.border-gray-200.list-block,section.flex.bg-white.p-5.sm\:pb-0.rounded-md.rounded-b-none,section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none,label.form-label.font-bold,b.block {
+    background-color: var(--main-color) !important;
+    color: #fff!important;
+    border-radius: 10px;
+}
+
+button.undefined.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-center,button.s-quick-buy-button.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-after {
+    color: #fff!important;
+    background: var(--2) !important;
+}
+
+input.s-quantity-input-input {
+    color: var(--2) !important;
+}
+
+.border-b.last\:border-0.mb-8.pb-8.last\:pb-0.border-gray-200.list-block {
+    padding: 18px;
+    color: #fff !important;
+}
+
+p.text-gray-500.text-sm,span.fix-align.rtl\:mr-1.ltr\:ml-1.text-sm.text-gray-600.mt-0\.5,.prose.prose-sm.max-w-none.text-gray-500 p {
+    color: #fff !important;
+}
