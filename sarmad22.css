@@ -227,10 +227,7 @@ section.s-block.s-block--fixed-banner.wide-placeholder > .container {
     color: black !important;
 }
 
-.swiper .swiper-wrapper>div {
-    padding-bottom: 20px !important;
-}
-
+ 
 @media (min-width: 1024px) {
     .index > div.app-inner.flex.flex-col.min-h-full > section:nth-child(20) > div {
         grid-template-columns: repeat(4,minmax(0,1fr));
