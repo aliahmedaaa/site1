@@ -189,7 +189,7 @@ section.s-block.s-block--fixed-banner.wide-placeholder > .container {
 }
 
 .s-product-card-price {
-    color: red !important;
+    /* color: red !important; */
     font-size: 16px !important;
     font-weight: bold;
 }
