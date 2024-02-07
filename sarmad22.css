@@ -662,8 +662,16 @@ footer.store-footer a.navbar-brand {
 }*/
 .s-product-card-rating {
     position: relative;
-    top: 1.5rem;
-    right: 1rem;
+    top: 0rem;
+    right: 4rem;
+}
+
+@media (max-width: 767px) {
+    .s-product-card-rating {
+        position: relative;
+        top: 1.5rem;
+        right: 1rem;
+    }
 }
 
 body.index:before,body[data-template="home"]:before {
@@ -805,6 +813,7 @@ body.index:after,body[data-template="home"]:after {
 .promotion-title,.footer-is-light .store-footer .social-link, .store-footer .contact-social ul li:first-child a {
     background: var(--2)!important;
     color: #ffffff!important;
+    border-color: transparent;
 }
 
 .items-end {
@@ -870,4 +879,42 @@ img.lazy.w-10.rounded-sm.hover\:opacity-80.transition-opacity.loaded {
 
 .top-navbar {
     display: none;
+}
+
+.leading-\[1\.2\] {
+    width: 100%;
+    font-weight: 100;
+    font-size: 16px;
+    background: var(--1);
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    margin-inline: 12px; --curve-size: 10px;
+    clip-path: polygon( /* Top-left */ 0% var(--curve-size), var(--curve-size) 0, /* top-right */ calc(100% - var(--curve-size)) 0%, calc(100% - var(--curve-size)) 0% , 100% var(--curve-size) , 100% calc(100% - var(--curve-size)), /* bottom-right */ calc(100% - var(--curve-size)) 100%, /* bottom-left */ calc(0% + var(--curve-size)) 100% , 0% calc(100% - var(--curve-size)));
+}
+
+.testimonials-slider .testimonial {
+    height: 100%;
+    position: relative;
+    display: flex;
+    border-radius: 0 !important;
+    background-color: #34376017;
+    padding: 1.5rem;
+    --curve-size: 10px;
+    clip-path: polygon( /* Top-left */ 0% var(--curve-size), var(--curve-size) 0, /* top-right */ calc(100% - var(--curve-size)) 0%, calc(100% - var(--curve-size)) 0% , 100% var(--curve-size) , 100% calc(100% - var(--curve-size)), /* bottom-right */ calc(100% - var(--curve-size)) 100%, /* bottom-left */ calc(0% + var(--curve-size)) 100% , 0% calc(100% - var(--curve-size)));
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: 150ms;
+}
+
+.testimonials-slider .swiper-slide {
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+[dir=rtl] .testimonials-slider .swiper {
+    padding-left: 0;
+    padding-right: 0;
 }
