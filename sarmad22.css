@@ -365,7 +365,7 @@ a.banner-entry.square-photos:hover {
 
 @media (max-width: 767px) {
     .index > div.app-inner.flex.flex-col.min-h-full > section:nth-child(4) > div > a {
-        height: 68px;
+        height: 179px;
     }
 
     .index > div.app-inner.flex.flex-col.min-h-full > section:nth-child(16) > div {
@@ -917,4 +917,50 @@ img.lazy.w-10.rounded-sm.hover\:opacity-80.transition-opacity.loaded {
 [dir=rtl] .testimonials-slider .swiper {
     padding-left: 0;
     padding-right: 0;
+}
+
+.s-block.s-block--banners > .grid {
+    grid-template-columns: 1fr 1fr ;
+}
+
+.s-block.s-block--banners > .grid .banner-entry {
+    padding-top: 0%;
+    height: 38rem;
+}
+
+.two-row .banner-entry:first-child {
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.s-block.s-block--banners:nth-of-type(19) {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 991px) {
+    .s-block.s-block--banners > .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .s-block.s-block--banners > .grid .banner-entry {
+        height: 134px;
+    }
+
+    .main-nav-container {
+        min-height: 40px;
+        height: 68px !important;
+    }
+}
+
+body.index div.app-inner.flex.flex-col.min-h-full > section.s-block--banners:nth-child(n) div div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 -10px 10px 10px rgb(0 0 0 / 1%) !important;
+}
+
+body.index div.app-inner.flex.flex-col.min-h-full > section.s-block--banners:nth-child(n) div {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.banner-entry {
+    background-color: transparent;
 }
