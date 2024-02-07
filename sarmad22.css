@@ -995,4 +995,6 @@ section.flex.bg-white.p-5.sm\:pb-0.rounded-md.rounded-b-none {
 section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
     border-bottom-right-radius: 26px;
     border-bottom-left-radius: 23px;
+}.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden {
+    padding-bottom: 28px;
 }
