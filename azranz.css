@@ -193,11 +193,13 @@ span.s-button-text i.sicon-heart:before,.s-block__display-all,.s-product-card-sa
     mask-image: var(--cam);
     mask-size: contain;
     background: var(--1);
-    width: 55px;
-    height: 91px;
-    padding: 21px 0px 0 0px;
+    width: 45px;
+    height: 67px;
+    padding: 9px 0px 0 0px;
     text-align: center;
     /* right: 13rem; */
+    font-size: 9px;
+    line-height: 1.6;
 }
 
 .s-product-card-image img.loaded,.s-product-card-horizontal .s-product-card-image,.s-product-card-horizontal .s-product-card-image a {
