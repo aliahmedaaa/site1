@@ -13,3 +13,6 @@
     --text-btn: #ffffff;
     --bg-color: #ffffff;
 }
+html {
+    display: none;
+}
